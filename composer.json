@@ -1,0 +1,28 @@
+{
+  "name": "annonyme/ssengine",
+  "description": "Simple State Engine.",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Hannes Pries",
+      "email": "hp@hannespries.de",
+      "homepage": "https://www.hannespries.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "hannespries": "src/"
+    },
+    "psr-4": {
+      "hannespries\\": "src/"
+    }
+  }
+}
